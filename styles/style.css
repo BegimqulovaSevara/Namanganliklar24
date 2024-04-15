@@ -1,0 +1,26 @@
+/* GLOBAL SECTION */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* HEADER SECTION  */
+.header{
+    background-color: #F6F6F6;
+    width: 1440px;
+    height: 105px;
+}
+.header-container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
