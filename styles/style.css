@@ -14,8 +14,8 @@ body{
     padding: 0;
 }
 .container{
-    width: 100%;
     max-width: 1320px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 60px;
@@ -110,4 +110,27 @@ body{
 .nav-img{
     width: 1200px;
     margin-top: 40px;
+}
+
+/* News Section */
+.news-container{
+    width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.news-container-div{
+    display: flex;
+}
+.news-section-item{
+    width: 394px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color:#F6F6F6;
+    border-radius:15px;
+}
+.news-section-img{
+    display: block;
+}
+.news-icon-div {
+    display: flex;
 }
