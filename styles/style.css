@@ -161,6 +161,10 @@ body{
 }
 
 /* World Section  */
+/*world section marginini va width hossasini togirlash kerak Todo Tree*/
+.world{
+    margin-bottom: 100px;
+}
 .world-container{
     width: 1320px;
     display: flex;
@@ -184,13 +188,28 @@ body{
     background-color:#F6F6F6;
     border-radius:15px;
 }
+.world-list-item-button{
+    width: 796px;
+    height: 53px;
+    padding: 17px 343px 17px 343px;
+    background-color: #EAEAEA;
+}
+.world-list-button{
+    border-radius: 10px;
+    text-decoration: none;
+    color:#000000;
+}
 .world-list-div{
     margin-left: 15px;
+}
+.world-list-item-title{
+    margin-top: 0;
 }
 .world-div-2{
     margin-left: 10px;
 }
 .world-news{
+    width: 502px;
     margin-top: 16px;
     background-color:#F6F6F6;
     border-radius:15px;
@@ -203,7 +222,7 @@ body{
 }
 .world-news-list{
     width: 311px;
-    height: 502px;
+    height: 450px;
     padding-left: 0;
     list-style: none;
 }
@@ -225,4 +244,25 @@ body{
     width: 393px;
     height: 340px;
     border-radius:15px;
+}
+
+/* Footer Section */
+.footer{
+    background-color:#7297EF;
+}
+.footer-section{
+    display: flex;
+}
+.footer-section-div{
+    width: 265px;
+}
+.footer-section-div-title{
+    width: 264px;
+}
+.footer-roll {
+    background-color: #CECECE;
+}
+.footer-section-bottom{
+    display: flex;
+    justify-content: space-between;
 }
