@@ -8,10 +8,11 @@ html{
 body{
     width: 1440px;
     height: 100%;
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
+    font-family: Rubik;
+    display: flex;
+    flex-direction: column;
 }
 .container{
     max-width: 1320px;
@@ -90,7 +91,7 @@ body{
 
 /* Navigation Section */
 .nav-section{
-    margin-top: 30px;
+    margin-top:30px;
 }
 .navigation-list{
     display: flex;
@@ -115,6 +116,7 @@ body{
 /* News Section */
 .news-container{
     width: 1320px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -163,6 +165,7 @@ body{
 /* World Section  */
 /*world section marginini va width hossasini togirlash kerak Todo Tree*/
 .world{
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 .world-container{
@@ -188,6 +191,10 @@ body{
     background-color:#F6F6F6;
     border-radius:15px;
 }
+.news-icon-text{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 .world-list-item-button{
     width: 796px;
     height: 53px;
@@ -209,7 +216,8 @@ body{
     margin-left: 10px;
 }
 .world-news{
-    width: 502px;
+    width: 393px;
+    height: 502px;
     margin-top: 16px;
     background-color:#F6F6F6;
     border-radius:15px;
@@ -227,7 +235,7 @@ body{
     list-style: none;
 }
 .world-news-list-item{
-    width: 356px;
+    width: 311px;
     height: 71px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -242,16 +250,19 @@ body{
 }
 .world-news-img{
     width: 393px;
-    height: 340px;
+    height: 322px;
+    margin-top: 10px;
     border-radius:15px;
 }
 
 /* Footer Section */
 .footer{
     background-color:#7297EF;
+    color: #FFFFFF;
 }
 .footer-section{
     display: flex;
+    justify-content: space-around;
 }
 .footer-section-div{
     width: 265px;
@@ -259,10 +270,31 @@ body{
 .footer-section-div-title{
     width: 264px;
 }
+.footer-list{
+    margin-top: 68px;
+    list-style: none;
+}
+.footer-list-item{
+    margin-bottom: 20px;
+}
+.footer-list-item-link{
+    text-decoration: none;
+    color:#FFFFFF;
+}
 .footer-roll {
     background-color: #CECECE;
 }
 .footer-section-bottom{
+    margin-left: 85px;
+    margin-right: 80px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+.footer-icon-link{
+    margin-right: 20px;
+    text-decoration: none;
+}
+.footer-socials:last-child{
+    margin-right: 0;
 }
