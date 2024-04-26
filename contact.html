@@ -13,6 +13,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/contact.css">
 </head>
 <body>
         <!-- HEADER SECTION -->
@@ -51,13 +52,41 @@
                     </ul>
                 </nav>
                 <hr class="nav-roll">
-                <img class="nav-img" src="./images/optimize-list.jpg" alt="banner" width="1200px" height="128px">
             </div>
         </header>
 
 
         <!-- Main section -->
-
+        <main>
+            <div class="container form-container">
+                <form class="form" action="https://echo.htmlacademy.ru" method="GET">
+                    <span class="form-span">Напишите нам</span>
+                    <input class="username form-item" type="username" name="username" placeholder="Имя" required>
+                    <input class="tel form-item" type="tel" name="tel" placeholder="Номер телефона" required>
+                    <input class="email form-item" type="email" name="email" placeholder="Электронная почта" required>
+                    <input class="text form-item" type="text" name="text" placeholder="Текст" required>
+                    <button class="form-button" type="submit">Отправить</button>
+                </form>
+                <div class="contact-information-div">
+                    <ul class="information-div-list">
+                        <li>
+                            <h3>Электронная почта</h3>
+                            <p>info@namanganliklar24.uz</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <h3>Номер телефона</h3>
+                            <p>+998 88 522-54-76</p>
+                        </li>
+                        <hr>
+                        <li>
+                            <h3>Адрес</h3>
+                            <p>Ташкент, площадь Мустакиллик, 6 </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
 
         <!-- Footer section -->
         <footer class="footer">

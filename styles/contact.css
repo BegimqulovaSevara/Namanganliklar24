@@ -1,0 +1,62 @@
+/* Contact styles  */
+
+.form-container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+}
+.form{
+    width: 696px;
+    height: 431px;
+}
+.form-span {
+    margin-bottom: 20px;
+    font-weight: 500px;
+    font-size: 24px;
+    display: block;
+}
+.form-item{
+    margin-top: 0;
+    margin-bottom: 10px;
+    border: 1px solid #00000033;
+    border-radius: 10px;
+}
+.username{
+    width: 343px;
+    height: 55px;
+}
+.tel{
+    width: 343px;
+    height: 55px;
+}
+.email{
+    width: 690px;
+    height: 55px;
+}
+.text{
+    width: 690px;
+    height: 180px;
+}
+.form-button{
+    width: 143px;
+    height: 53px;
+    margin-top: 0;
+    margin-left: 548px;
+    border: 1px solid #7296ef;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #7297EF;
+}
+.contact-information-div{
+    width: 494px;
+    height: 310px;
+    margin-top: 50px;
+    padding-top: 0;
+    padding-bottom: 18px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color:#F6F6F6;
+}
+.information-div-list {
+    list-style: none;
+}
