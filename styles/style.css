@@ -2,6 +2,10 @@
 *{
     box-sizing: border-box;
 }
+*:focus{
+    outline: 2px dashed #7296EC;
+    outline-offset: 3px;
+}
 html{
     height: 100%;
 }
@@ -62,13 +66,17 @@ main{
 .header-login-div{
     display: flex;
 }
-.header-search-div{
+.header-search-form{
+    margin-right: 25px;
+}
+.header-search-input{
     width: 275px;
     height: 45px;
-    margin-right: 25px;
-    display: flex;
-    align-items:center;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    padding-left: 40px;
     background-color:#FFFFFF;
+    border: 0;
     border-radius: 60px;
 }
 .search-img{
