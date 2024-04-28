@@ -6,11 +6,8 @@
     outline: 2px dashed #7296EC;
     outline-offset: 3px;
 }
-html{
-    height: 100%;
-}
+
 body{
-    width: 1440px;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -22,8 +19,8 @@ main{
     margin-bottom: 20px;
 }
 .container{
-    max-width: 1320px;
     width: 100%;
+    max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 60px;
@@ -35,7 +32,6 @@ main{
     background-color:#F6F6F6;
 }
 .header-container{
-    width: 1320px;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -126,7 +122,6 @@ main{
 
 /* News Section */
 .news-container{
-    width: 1320px;
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -180,18 +175,13 @@ main{
     margin-bottom: 100px;
 }
 .world-container{
-    width: 1320px;
     display: flex;
-}
-.world-div-1{
-    height: 898px;
 }
 .world-title{
     width: 1320px;
 }
 .world-list{
     width: 797px;
-    height: 898px;
     padding-left: 0;
     list-style: none;
 }
